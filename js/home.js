@@ -18,7 +18,7 @@ document.getElementById('add-moneyBtn').addEventListener('click', function (even
         
         mainBalance.innerText = currentBalance;
     } else {
-        alert('Wrong Pin Code')
+        alert('Wrong Pin Code! Try Again')
     }
     
 });

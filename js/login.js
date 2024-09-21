@@ -13,12 +13,12 @@ document.getElementById('main-btn').addEventListener('click', function (event) {
     const passwordPin = document.getElementById('password').value;
 
         // step 4
-    if (passwordPin === 'monifa' && phoneNumber === '01601698201') {
+    if (passwordPin === 'monifa' && phoneNumber === '01601698202') {
         window.location.href = './home.html'
-        console.log('jaan');
+      
         
     } else {
-        alert('wrong')
+        alert('Wrong Info! Please try again with right info')
     }
 
 
