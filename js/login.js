@@ -13,7 +13,7 @@ document.getElementById('main-btn').addEventListener('click', function (event) {
     const passwordPin = document.getElementById('password').value;
 
         // step 4
-    if (passwordPin === 'monifa' && phoneNumber === '2021') {
+    if (passwordPin === 'monifa' && phoneNumber === '01601698201') {
         window.location.href = './home.html'
         console.log('jaan');
         
